@@ -1,7 +1,12 @@
 {
   "name": "DoubleTapDelete",
-  "description": "Apaga a mensagem ao tocar 2 vezes nela.",
-  "authors": [{"name": "ChatGPT", "id": "000000000000000000"}],
+  "description": "Deleta mensagens com dois toques.",
+  "authors": [
+    {
+      "name": "crilguizin",
+      "id": "1332845891899494523"
+    }
+  ],
   "version": "1.0.0",
   "main": "DoubleTapDelete.js",
   "vendetta": {
