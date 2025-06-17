@@ -13,10 +13,14 @@ function onDoubleClick(e) {
 }
 
 module.exports = {
-  onLoad() {
+  name: "DoubleTapDelete",
+  description: "Deleta mensagens com dois toques.",
+  version: "1.0.0",
+  authors: ["crilguizin"],
+  load() {
     document.addEventListener("dblclick", onDoubleClick);
   },
-  onUnload() {
+  unload() {
     document.removeEventListener("dblclick", onDoubleClick);
   }
 };
